@@ -2,13 +2,45 @@
 
 <article>
   <header>
-    <h1>Hallo</h1>
-    <p>mijn naam is</p>
+    <div class="name">
+      <h1><%= data.name %></h1>
+    </div>
+     <div>
+      <img src="images/foto zelf 2.jpg" class="rotate" height="115px" width="115px";>
+    </div>
   </header>
+  
+  <!-- Hier gebruik ik een class selector om specifiek een div te stylen.-->
+    <div class="info">
+      <div class="info-background">
+      <h2>Over mij </h2>
+      <!--Hier gebruik ik een class selector. Deze gebruik ik meerdere keren omdat ik meerdere lists heb die dezelfde styling krijgen.-->
+      <ul class="list">
+        <li>👧🏻 20 jaar</li>
+        <li>📍 Landsmeer</li>
+      </ul>
+      <h2>Hobby's</h2>
+      <ul class="list">
+        <li>✏️ Tekenen</li>
+        <li>🎹 Piano</li>
+        <li>🎮 Gamen</li>
+      </ul>
+      </div>
+    </div>
 
-  <p><%= data.name %></p>
+  <div class="buttons">
 
-  <footer></footer>
+      <a href="<%= data.website %>">
+        <i class='bx bxl-github'></i></a>
+
+      <a href="https://codepen.io/Annevd">
+        <i class='bx bxl-codepen' ></i></a>
+
+      <a href="https://www.instagram.com/itisannex">
+        <i class='bx bxl-instagram' ></i></a>
+
+  </div>
+  
 </article>
 
 <%- include('./partials/foot') %>
