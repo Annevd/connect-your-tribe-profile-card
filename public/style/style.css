@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 
 * {
   padding: 0;
@@ -10,7 +11,7 @@ body { /*met deze element selector style je de gehele body*/
   justify-content: center; /*plaatst flex-items horizontaal in het midden van de flex-container als de flex-direction zoals in dit geval default of row is.*/
   align-items: center; /*plaatst flex-items verticaal in het midden van de flex-container als de flex-direction zoals in dit geval default of row is.*/
   height: 100vh; /*zorgt dat de body de volledige hoogte is van het scherm van de gebruiker (viewport height).*/
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Antic', sans-serif;
 }
 
 article { /*Dit is een element selector die ik gebruik om het article te stylen*/
@@ -32,7 +33,19 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
   margin-top: 5rem;
   height: 11rem;
   border-radius: 7px; 
-  background: #C4D6B0;
+  background: #ffcece;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.header-background p {
+  font-family: 'Caveat', cursive;
+}
+
+.name-light {
+  font-weight: 100;
 }
 
 .links {
@@ -49,6 +62,7 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
   text-decoration: none;
   list-style: none;
   color: black;
+  transition: 0.1s ease-in-out;
 }
 
 .links li:nth-of-type(2),
@@ -71,6 +85,7 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
   top: 10rem;
   right: 2rem;
   z-index: 1000;
+  transition: 1s ease-in-out;
 }
 
 .insta path {
@@ -88,4 +103,65 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
 
 .arrow {
   transform: scaleX(-1) rotate(140deg);
+}
+
+/* Hovers */
+
+.links a:hover {
+  transform: scale(1.1);
+  color: #cb6161;
+}
+
+.insta:hover {
+  transform: scale(1.1);
+  animation: bounce 1s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		transform:         translateY(0)
+	}
+	40% {
+		transform:         translateY(-20px)
+	}
+	60% {
+		transform:         translateY(-10px)
+	}
+}
+
+/* Media query */
+
+@media (min-width: 650px) {
+  article {
+    width: 350px;
+  }
+  .content {
+    margin: 0 3rem 1rem 3rem;
+  }
+
+  .header-background {
+    margin-top: 2rem;
+    height: 15rem;
+  }
+
+  .profile-pic {
+    height: 15rem;
+    width: 256px;
+    top: -2rem;
+    right: -2rem;
+    /* box-shadow: 7px 7px 0px 0px rgb(35 11 23 / 41%); */
+  }
+
+  .insta {
+    top: 9rem;
+    right: -2rem;
+    width: 65px;
+    height: 65px;
+  }
+
+  .hover-container {
+    top: -4rem;
+    left: 3rem;
+  }
 }
