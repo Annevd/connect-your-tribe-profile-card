@@ -12,26 +12,19 @@
     </svg>
   </div>
 
-  <img class="profile-pic slide" src="/images/profile-pic.jpg">
-  <img class="profile-pic slide" src="/images/IMG_2194.JPG">
-  <img class="profile-pic slide" src="/images/IMG_5083.JPG">
-  <img class="profile-pic slide" src="/images/IMG_7559.jpg">
-  <img class="profile-pic slide" src="/images/IMG_8433.jpg">
-  <img class="profile-pic slide" src="/images/IMG_9764.JPG">
+  <img class="profile-pic slide" src="/images/profile-pic.jpg" alt="profile picture">
+  <img class="profile-pic slide" src="/images/IMG_2194.JPG" alt="drawing">
+  <img class="profile-pic slide" src="/images/IMG_5083.JPG" alt="drawing">
+  <img class="profile-pic slide" src="/images/IMG_7559.jpg" alt="drawing">
+  <img class="profile-pic slide" src="/images/IMG_8433.jpg" alt="drawing">
+  <img class="profile-pic slide" src="/images/IMG_9764.JPG" alt="drawing">
 
   <div class="header-background content">
-    <h1>
-      <%= name %> <span class="name-light">
-          <%= prefix %>
-            <%= surname%>
-        </span>
-    </h1>
+    <h1><%= name %> <span class="name-light"> <%= prefix %> <%= surname%></span></h1>
     <p><i>Artist & Frontender in spé</i></p>
   </div>
 
-  <p class="bio content">
-    <%= bio %>
-  </p>
+  <p class="bio content"><%= bio %></p>
 
   <ul class="links content">
     <li>
@@ -70,8 +63,8 @@
     </li>
   </ul>
 
-  <a href="https://www.instagram.com/xartisticanne">
     <svg class="insta" width="50" height="50" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <a href="https://www.instagram.com/xartisticanne" aria-label="Visit my instagram">
       <path
         d="M97.758 266.912c-5.073-16.554-2.682-33.993-4.818-50.928-1.818-14.4-5.165-91.958 6.422-103.44 20.665-20.479 174.265-31.8 195.924-3.182 15.729 20.779 12.847 61.524 12.847 85.935 0 26.366 6.171 67.093-14.454 87.528-31.033 30.753-142.877 27.86-184.681 17.506"
         stroke="#000" stroke-opacity=".9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
@@ -81,8 +74,8 @@
       <path
         d="M190.42 185.487c5.189-5.704 15.85-13.329 24.128-11.26 26.089 6.522 25.652 57.286-1.61 62.741-25.6 5.119-44.898-32.246-22.518-43.438M271.379 177.772c6.741-.932 28.455-.135 35.027-1.297M279.81 139.067v-1.724"
         stroke="#000" stroke-opacity=".9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
-    </svg>
-  </a>
+        </a>
+      </svg>
 
 </article>
 
