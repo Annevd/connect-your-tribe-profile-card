@@ -12,12 +12,14 @@ body { /*met deze element selector style je de gehele body*/
   align-items: center; /*plaatst flex-items verticaal in het midden van de flex-container als de flex-direction zoals in dit geval default of row is.*/
   height: 100vh; /*zorgt dat de body de volledige hoogte is van het scherm van de gebruiker (viewport height).*/
   font-family: 'Antic', sans-serif;
+  background: #f3f3f3;
 }
 
 article { /*Dit is een element selector die ik gebruik om het article te stylen*/
   position: relative;
   width: 300px;
   border-radius: 7px; 
+  background: white;
   box-shadow:  0px 7px 11px 0px #3d3d3d70;
 }
 
