@@ -28,59 +28,30 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
   padding: 0.5rem;
 }
 
-.header-background {
+.slide-container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-top: 5rem;
-  height: 11rem;
-  border-radius: 7px; 
-  background: #ffcece /*#1c1c1c*/;
-  /* color: white; */
-}
-
-h1 {
-  text-transform: uppercase;
-}
-
-.header-background p {
-  font-family: 'Caveat', cursive;
-}
-
-.name-light {
-  font-weight: 100;
-}
-
-.links {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-}
-
-.links a,
-.links li {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  text-decoration: none;
-  list-style: none;
-  color: black;
-  transition: 0.1s ease-in-out;
-}
-
-.links li:nth-of-type(2),
-.links li:nth-of-type(4) {
-  justify-self: end;
-}
-
-.profile-pic {
+  flex-direction: row;
+  overflow: hidden;
   position: absolute;
   top: 2rem;
   right: 2rem;
+  height: 11rem;
+  width: 192px;
+  border-radius: 7px; 
+}
+
+.profile-pic {
+  /* position: absolute;
+  top: 2rem;
+  right: 2rem; */
   border-radius: 7px; 
   object-fit: cover;
   height: 11rem;
   width: 192px;
+}
+
+.slideshow {
+  animation: slideS 8s ease-in-out infinite;
 }
 
 .insta {
@@ -111,6 +82,54 @@ h1 {
   transform: scaleX(-1) rotate(140deg);
 }
 
+.header-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 5rem;
+  height: 11rem;
+  border-radius: 7px; 
+  background: #ffcece /*#1c1c1c*/;
+  /* color: white; */
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.header-background p {
+  font-family: 'Caveat', cursive;
+}
+
+.name-light {
+  font-weight: 100;
+}
+
+li {
+  list-style: none;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.links a,
+.links li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: black;
+  transition: 0.1s ease-in-out;
+}
+
+.links li:nth-of-type(2),
+.links li:nth-of-type(4) {
+  justify-self: end;
+}
+
 /* Hovers */
 
 .links a:hover {
@@ -137,6 +156,48 @@ h1 {
 	}
 }
 
+@keyframes slideL {
+  0%, 10% {
+    margin-left: -256px;
+  }
+  20%, 30%{
+    margin-left: -512px;
+  }
+  40%, 50% {
+    margin-left: -768px;
+  }
+  60%, 70% {
+    margin-left: -1024px;
+  }
+  80%, 90% {
+    margin-left: -1280px;
+  }
+  100% {
+    margin-left: -256px;
+  }
+}
+
+@keyframes slideS {
+  0%, 10% {
+    margin-left: -192px;
+  }
+  20%, 30%{
+    margin-left: -384px;
+  }
+  40%, 50% {
+    margin-left: -576px;
+  }
+  60%, 70% {
+    margin-left: -768px;
+  }
+  80%, 90% {
+    margin-left: -960px;
+  }
+  100% {
+    margin-left: -192px;
+  }
+}
+
 /* Media query */
 
 @media (min-width: 650px) {
@@ -155,9 +216,20 @@ h1 {
   .profile-pic {
     height: 15rem;
     width: 256px;
+    /* top: -2rem;
+    right: -2rem; */
+    /* box-shadow: 7px 7px 0px 0px rgb(35 11 23 / 41%); */
+  }
+
+  .slide-container {
+    height: 15rem;
+    width: 256px;
     top: -2rem;
     right: -2rem;
-    /* box-shadow: 7px 7px 0px 0px rgb(35 11 23 / 41%); */
+  }
+
+  .slideshow {
+    animation: slideL 8s ease-in-out infinite;
   }
 
   .insta {

@@ -6,6 +6,8 @@ import fetchJson from './helpers/fetch-json.js'
 
 // Haal data op uit de FDND API, ga pas verder als de data gedownload is
 const { data } = await fetchJson('https://fdnd.directus.app/items/person/11')
+// data.custom = JSON.parse(data.custom)
+// console.log(data.custom.woonplaats)
 // de {} om data zorgt ervoor dat je in index.ejs niet data.name hoeft te schrijven maar alleen name
 // console.log(data); // uncomment om de opgehaalde data te checken
 

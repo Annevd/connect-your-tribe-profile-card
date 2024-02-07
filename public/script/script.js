@@ -1,16 +1,17 @@
-console.log("hello");
+document.addEventListener("DOMContentLoaded", function() {
+  const slideContainer = document.querySelector('.slide-container')
+  const listItem = document.querySelector('.slide-container li:first-of-type')
 
-var slideIndex = 0;
-carousel();
+  slideContainer.addEventListener('mouseenter', addSlideshow)
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("slide");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  function addSlideshow(){
+    listItem.classList.add('slideshow')
   }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 4000); // Change image every 2 seconds
-}
+
+  slideContainer.addEventListener('mouseleave', removeSlideshow)
+
+  function removeSlideshow(){
+    listItem.classList.remove('slideshow')
+  }
+
+});
