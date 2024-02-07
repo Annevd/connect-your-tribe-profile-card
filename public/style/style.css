@@ -35,7 +35,8 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
   margin-top: 5rem;
   height: 11rem;
   border-radius: 7px; 
-  background: #ffcece;
+  background: #ffcece /*#1c1c1c*/;
+  /* color: white; */
 }
 
 h1 {
@@ -102,6 +103,8 @@ h1 {
   display: flex;
   flex-direction: column;
   transform: rotate(-25deg);
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
 }
 
 .arrow {
@@ -112,12 +115,13 @@ h1 {
 
 .links a:hover {
   transform: scale(1.1);
-  color: #cb6161;
+  /* color: #cb6161; */
+  font-weight: bold;
 }
 
 .insta:hover {
   transform: scale(1.1);
-  animation: bounce 1s ease-in-out infinite;
+  animation: bounce 1.25s ease-in-out infinite;
 }
 
 /* Animations */
