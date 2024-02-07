@@ -14,4 +14,10 @@ document.addEventListener("DOMContentLoaded", function() {
     listItem.classList.remove('slideshow')
   }
 
+  slideContainer.addEventListener('click', addSlideshow) //zodat je op mobiel kan klikken
+
+  function addSlideshow(){
+    listItem.classList.toggle('slideshow')
+  }
+
 });
