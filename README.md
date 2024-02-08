@@ -37,6 +37,11 @@ Om mijn visitekaartje te [bekijken](https://fierce-jade-chipmunk.cyclic.app/) ka
 
 ## Bronnen
 
+- [Cyclic Hosting](https://www.cyclic.sh/)
+- [Nodejs.org](https://nodejs.org/en/)
+- [Introduction to Node](https://nodejs.dev/en/learn/)
+- [FDND API](https://whois.fdnd.nl)
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
