@@ -6,16 +6,18 @@
   margin: 0;
 }
 
-body { /*met deze element selector style je de gehele body*/
+/* Algemene styling */
+
+body { 
   display: flex;
-  justify-content: center; /*plaatst flex-items horizontaal in het midden van de flex-container als de flex-direction zoals in dit geval default of row is.*/
-  align-items: center; /*plaatst flex-items verticaal in het midden van de flex-container als de flex-direction zoals in dit geval default of row is.*/
-  height: 100vh; /*zorgt dat de body de volledige hoogte is van het scherm van de gebruiker (viewport height).*/
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
   font-family: 'Antic', sans-serif;
   background: #f3f3f3;
 }
 
-article { /*Dit is een element selector die ik gebruik om het article te stylen*/
+article {
   position: relative;
   width: 300px;
   border-radius: 7px; 
@@ -27,6 +29,8 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
   margin: 0 5rem 1rem 2rem;
   padding: 0.5rem;
 }
+
+/* Foto's + slideshow */
 
 .slide-container {
   display: flex;
@@ -41,9 +45,6 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
 }
 
 .profile-pic {
-  /* position: absolute;
-  top: 2rem;
-  right: 2rem; */
   border-radius: 7px; 
   object-fit: cover;
   height: 11rem;
@@ -53,6 +54,8 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
 .slideshow {
   animation: slideS 8s ease-in-out infinite;
 }
+
+/* Instagram logo */
 
 .insta {
   position: absolute;
@@ -66,6 +69,12 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
 .insta path {
   stroke: white;
 }
+
+.insta a {
+  z-index: 1000;
+}
+
+/* Hover me! text */
 
 .hover-container {
   position: absolute;
@@ -86,6 +95,8 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
   transform: scaleX(-1) rotate(140deg);
 }
 
+/* Header */
+
 .header-background {
   display: flex;
   flex-direction: column;
@@ -93,7 +104,7 @@ article { /*Dit is een element selector die ik gebruik om het article te stylen*
   margin-top: 5rem;
   height: 11rem;
   border-radius: 7px; 
-  background: #ffcece /*#1c1c1c*/;
+  background: #9dc5c4 /*#ffcece #1c1c1c*/;
   /* color: white; */
 }
 
@@ -108,6 +119,8 @@ h1 {
 .name-light {
   font-weight: 100;
 }
+
+/* Links */
 
 li {
   list-style: none;
@@ -138,7 +151,6 @@ li {
 
 .links a:hover {
   transform: scale(1.1);
-  /* color: #cb6161; */
   font-weight: bold;
 }
 
@@ -148,6 +160,7 @@ li {
 }
 
 /* Animations */
+
 @keyframes bounce {
 	0%, 100%, 20%, 50%, 80% {
 		transform:         translateY(0)
@@ -226,8 +239,6 @@ li {
   .profile-pic {
     height: 15rem;
     width: 256px;
-    /* top: -2rem;
-    right: -2rem; */
     /* box-shadow: 7px 7px 0px 0px rgb(35 11 23 / 41%); */
   }
 
