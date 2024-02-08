@@ -223,7 +223,7 @@ li {
 
 /* Media query */
 
-@media (min-width: 650px) {
+@media (min-width: 1024px) {
   article {
     width: 350px;
   }
