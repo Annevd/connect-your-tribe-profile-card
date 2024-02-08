@@ -28,6 +28,7 @@ Er is de mogelijkheid om te hoveren over mijn profielfoto, als je dit doet versc
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 De HTML is opgedeeld in een ```<article>``` met daarin een ```<header>```, ```<ul>```'s met daarin ```<li>```'s,  ```<p>```'s en waar nodig een paar ```<div>```'s en ```<span>```'s. Met CSS heb ik de foto's en de hover me tekst absoluut gepositioneerd en heb ik met een combinatie van Javascript (```'mouseenter'``` & ```'mouseleave'```) en keyframe animations ervoor gezorgd dat je kan hoveren over de foto's. Als je erover hovert verschijnt er een slideshow door middel van die keyframe animatie. Op mobiel scherm is dit met een ```'click'``` event.
+Informatie zoals mijn naam, bio, adress en alle links komen uit de FDND API.
 
 ## Installatie
 
