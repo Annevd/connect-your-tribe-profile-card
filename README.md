@@ -19,8 +19,7 @@ Dit visitekaartje laat zien wie ik ben, wat ik leuk vind en waar ik te vinden be
 Er staat een korte biografie over wat ik doe met daaronder overige belangrijke informatie zoals mijn huidige woonplaats, emailadress, github profiel en codepen profiel.
 Er is de mogelijkheid om te hoveren over mijn profielfoto, als je dit doet verschijnt er een reeks van tekeningen en schilderijen die ik in mijn vrije tijd heb gemaakt! Op deze manier laat ik mijn talent zien.
 <!-- Voeg een mooie poster visual toe 📸 -->
-
-![image](https://github.com/Annevd/connect-your-tribe-profile-card/assets/144004647/183ac278-3ea0-44c7-955f-27f5200782c3)
+![FDNDVisitekaartje-GoogleChrome2024-02-0816-09-53-Trim1-ezgif com-video-to-gif-converter](https://github.com/Annevd/connect-your-tribe-profile-card/assets/144004647/d7e4eaaf-d2e9-4775-9230-49fda238c85a)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 [Link naar mijn visitekaartje](https://fierce-jade-chipmunk.cyclic.app/)
