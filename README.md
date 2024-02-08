@@ -23,7 +23,7 @@ Er is de mogelijkheid om te hoveren over mijn profielfoto, als je dit doet versc
 ![image](https://github.com/Annevd/connect-your-tribe-profile-card/assets/144004647/183ac278-3ea0-44c7-955f-27f5200782c3)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
-[Link naar mijn visitekaartje]()
+[Link naar mijn visitekaartje](https://fierce-jade-chipmunk.cyclic.app/)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
@@ -33,7 +33,7 @@ De HTML is opgedeeld in een ```<article>``` met daarin een ```<header>```, ```<u
 
 ## Gebruik
 
-Om mijn visitekaartje te [bekijken]() kan je op de link klikken in de about sectie van deze repo.
+Om mijn visitekaartje te [bekijken](https://fierce-jade-chipmunk.cyclic.app/) kan je op de link klikken in de about sectie van deze repo.
 
 ## Bronnen
 
