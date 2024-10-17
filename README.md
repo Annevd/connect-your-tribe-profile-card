@@ -22,7 +22,7 @@ Er is de mogelijkheid om te hoveren over mijn profielfoto, als je dit doet versc
 ![FDNDVisitekaartje-GoogleChrome2024-02-0816-09-53-Trim1-ezgif com-video-to-gif-converter](https://github.com/Annevd/connect-your-tribe-profile-card/assets/144004647/d7e4eaaf-d2e9-4775-9230-49fda238c85a)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
-[Link naar mijn visitekaartje](https://fierce-jade-chipmunk.cyclic.app/)
+[Link naar mijn visitekaartje]([https://fierce-jade-chipmunk.cyclic.app/](https://connect-your-tribe-profile-card-8nf5.onrender.com/))
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
@@ -33,7 +33,7 @@ Informatie zoals mijn naam, bio, adress en alle links komen uit de FDND API.
 
 ## Gebruik
 
-Om mijn visitekaartje te [bekijken](https://fierce-jade-chipmunk.cyclic.app/) kan je op de link klikken in de about sectie van deze repo.
+Om mijn visitekaartje te [bekijken]([https://fierce-jade-chipmunk.cyclic.app/](https://connect-your-tribe-profile-card-8nf5.onrender.com/)) kan je op de link klikken in de about sectie van deze repo.
 
 ## Bronnen
 
